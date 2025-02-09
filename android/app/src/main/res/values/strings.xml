@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tostigns</string>
+    <string name="facebook_app_id">1626317761364029</string>
+    <string name="fb_login_protocol_scheme">fb1626317761364029</string>
+    <string name="facebook_client_token">983d12c4f9ad6a8bde8c749a105b2fa8</string>
+</resources>

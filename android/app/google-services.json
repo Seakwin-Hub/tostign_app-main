@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "178532700072",
+    "project_id": "k-ecommerce-1fb9f",
+    "storage_bucket": "k-ecommerce-1fb9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178532700072:android:13fd97d3ec406574afd79d",
+        "android_client_info": {
+          "package_name": "com.mobile.tostignapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178532700072-d7ioq9kgbh0oovtm1ebudeedv0tit5sb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.tostignapp",
+            "certificate_hash": "d41766fbf0fbf9a1a6a18184abeb17dfc69b6676"
+          }
+        },
+        {
+          "client_id": "178532700072-prgecmnvdi1q0plq8iu828qfjkq74ka5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD771gFYkES9lBuAHumtLwwP8jB8cfVTps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178532700072-6k1qg51e93elg2o1hicqnfd7v54pd5qv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "178532700072-2bb2jk4d11e5qflnjkan8stsjikf95mg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mobile.tostignappUser"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
