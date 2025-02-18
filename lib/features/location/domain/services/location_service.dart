@@ -41,7 +41,10 @@ class LocationService implements LocationServiceInterface {
     Position myPosition;
     try {
       Position newLocalData = await Geolocator.getCurrentPosition(
-          desiredAccuracy: LocationAccuracy.high);
+          locationSettings: LocationSettings(
+        accuracy: LocationAccuracy.high,
+      ));
+
       myPosition = newLocalData;
     } catch (e) {
       myPosition = Position(

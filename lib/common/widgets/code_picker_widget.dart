@@ -174,6 +174,10 @@ class _CodePickerWidgetState extends State<CodePickerWidget> {
             constraints: const BoxConstraints(maxHeight: 500, maxWidth: 400),
             child: Dialog(
               child: SelectionDialog(
+                hideHeaderText: false,
+                headerAlignment: MainAxisAlignment.center,
+                headerTextStyle: TextStyle(),
+                topBarPadding: EdgeInsets.all(10),
                 elements!,
                 favoriteElements!,
                 showCountryOnly: widget.showCountryOnly,
@@ -210,6 +214,10 @@ class _CodePickerWidgetState extends State<CodePickerWidget> {
         context: context,
         builder: (context) => Center(
           child: SelectionDialog(
+            hideHeaderText: false,
+            headerAlignment: MainAxisAlignment.start,
+            headerTextStyle: TextStyle(),
+            topBarPadding: EdgeInsets.all(10),
             elements!,
             favoriteElements!,
             showCountryOnly: widget.showCountryOnly,

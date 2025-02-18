@@ -225,7 +225,6 @@ class VerificationScreenState extends State<VerificationScreen> {
                                 )
                                     .then((value) {
                                   if (value.isSuccess) {
-                                    print("sucess hx :: $value");
                                     showCustomSnackBar(
                                         'successfully_verified'.tr,
                                         isError: false);

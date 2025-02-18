@@ -99,8 +99,8 @@ class SocialLoginWidget extends StatelessWidget {
                           Get.find<AuthController>()
                               .loginWithSocialMedia(SocialLogInBody(
                             email: userData['email'],
-                            token: result.accessToken!.token,
-                            uniqueId: result.accessToken!.userId,
+                            token: result.accessToken!.tokenString,
+                            uniqueId: userData['id'],
                             medium: 'facebook',
                             deviceToken: deviceToken,
                           ));

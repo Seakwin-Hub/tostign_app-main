@@ -33,8 +33,9 @@ class NoInternetScreen extends StatelessWidget {
             const SizedBox(height: 40),
             GestureDetector(
               onTap: () async {
-                if (await Connectivity().checkConnectivity() !=
-                    ConnectivityResult.none) {
+                List<ConnectivityResult> checkConnectivity =
+                    await Connectivity().checkConnectivity();
+                if (!checkConnectivity.contains(ConnectivityResult.none)) {
                   // Get.off((_) => child);
                   Get.off(child);
                 }
